@@ -328,7 +328,7 @@
 		let galleryData = {
 		    options: {
 		        format: 'natural',
-		        limit: 0,
+		        limit: 4,
 		        showCount: true,
 		        searchFilter: true,
 		        categoriesFilter: true,
@@ -358,7 +358,6 @@
 		    if (xhr.readyState === 4 && xhr.status === 200) {
 		        images = JSON.parse(xhr.responseText);
 		        gallery.collection = JSON.parse(xhr.responseText);
-				console.log(images)
 		    }
 		};	
 	})();

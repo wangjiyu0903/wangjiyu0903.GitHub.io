@@ -726,4 +726,3 @@ jQuery(document).ready(function ($) {
 	})();
 });
 
-console.log("%c Github %c", "background: #222222; color: #ffffff", " ", "https://github.com/Sariay/hexo-theme-Annie");
