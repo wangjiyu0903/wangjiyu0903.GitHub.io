@@ -1,0 +1,29 @@
+menu:
+  首页: /
+  技术文: /categories/technology
+  杂文: /categories/archives
+  时事评论: /categories/news
+  关于我: /about
+
+widgets:
+- search
+- recent_posts
+- category
+- tagcloud
+
+excerpt_link: Read More ›
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: false
+  pubid:
+  facebook: false
+  twitter: false
+  google: false
+  pinterest: false
+
+google_analytics:
