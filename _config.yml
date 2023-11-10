@@ -104,5 +104,5 @@ theme: concise
 deploy:
   type: git
   repo: https://github.com/wangjiyu0903/wangjiyu0903.GitHub.io.git
-  branch: master
-  message: update
+  branch: main
+  message: hexo update
