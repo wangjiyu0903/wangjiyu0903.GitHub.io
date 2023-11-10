@@ -1,5 +1,7 @@
 ---
-title: blog1
+title: 博客新上线
 categories: archives
+comments: false
 ---
-blog1
+
+# 博客新上线

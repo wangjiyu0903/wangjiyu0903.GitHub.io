@@ -2,10 +2,10 @@
   <%
   var cats = [];
   item.categories.forEach(function(cat){
-    cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
+    cats.push('<a href="' + config.root + cat.path + '">' + __(cat.name) + ' &gt; ' + '</a>' +  __(item.title));
   });
   %>
-  <div class="categories">
+  <div>
     <%- cats.join(', ') %>
   </div>
 <% } %>

@@ -30,11 +30,7 @@ if (page.archive){
             <% } else { %>
               <h2 class="archive-post">
                 <span datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></span>
-                <% if (page.category==="news"){ %>
-                  <span><%= item.title %></span>
-                <% } else { %>
-                  <a href="<%- config.root %><%- item.path %>"><%= item.title %></a>
-                <% } %>
+                <a href="<%- config.root %><%- item.path %>"><%= item.title %></a>
               </h2>
             <% } %>
           </header>
