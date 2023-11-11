@@ -6,7 +6,6 @@ menu:
   关于我: /about
 
 widgets:
-- search
 - recent_posts
 - category
 - tagcloud
