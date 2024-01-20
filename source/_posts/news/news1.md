@@ -1,5 +1,6 @@
 ---
 title: 思想麻木
+date: 2023-11-29
 categories: news
 ---
 

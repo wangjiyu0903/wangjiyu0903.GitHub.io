@@ -1,6 +1,7 @@
 ---
 title: 也许社会需要更多的是理解与包容
 categories: archives
+date: 2023-11-28
 comments: false
 ---
 
